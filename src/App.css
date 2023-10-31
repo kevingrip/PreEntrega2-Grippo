@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contenedorCarrito{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-color: blueviolet;
+  align-items: center;
+}
+
+#tamañoCarrito{
+  height: 25px;
+}
+
+
+#numCarrito{
+
+  width: 20px;
+}
+
+
+h3{
+  color: gray;
+  font-size: 20px;
+  margin: 0;
+}
+
+#nav{
+  display: flex;
+  padding : 10px;
+  justify-content: space-between;
+  background-color: red;
+  align-items: center;
+}
+
+
+.card-img-top{
+  width: 200px;
+  height: 200px;
+}
+
+#navGround{
+  background-color: rgba(208, 169, 169, 0.574);
+}
+
+#detailProduct{
+  display: flex;
+  flex-direction: row;
+}
+
+#detailDescription{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#imgedit{
+  width: 500px;
+  height: auto;
+}
+
+#productName{
+  font-family: 'Noto Serif Old Uyghur', serif;
+  font-size: 40px;
+}
+
+#productPrice{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 35px;
+  color: blue;
+}
+
+.widthNav{
+  width: 33%;
+}
+
+#posButtonPrincipal{
+  text-align: start;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+#posCart{
+  display: flex;
+  justify-content: end;
+}
+
+h1{
+  font-family: 'Prosto One', sans-serif;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cantCar{
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#subTotal{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkStyle {
+  color: black; /* Puedes cambiar este valor por el color que prefieras */
+  padding: 10px;
+}
+
+.linkStylePrin {
+  color: white; /* Puedes cambiar este valor por el color que prefieras */
+  padding: 15px;
+  background-color: black;
+  border-radius: 22%;
+}
