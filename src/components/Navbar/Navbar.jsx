@@ -16,19 +16,19 @@ const Navbar = () => {
                             <div className="collapse navbar-collapse">
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                        <Link to={`/category/Gaseosas`} className='linkStyle'>Gaseosas</Link>                                    
+                                        <Link to={`/category/Gaseosas`} className='linkStyleNav'>Gaseosas</Link>                                    
                                     </li>
                                     <li className="nav-item" id='buttonNav'>
-                                        <Link to={`/category/Aguas`} className='linkStyle'>Aguas</Link>
+                                        <Link to={`/category/Aguas`} className='linkStyleNav'>Aguas</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link to={`/category/Aguas Saborizadas`} className='linkStyle'>Aguas Saborizadas</Link>
+                                        <Link to={`/category/Aguas Saborizadas`} className='linkStyleNav'>Aguas Saborizadas</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link to={`/category/Cervezas`} className='linkStyle'>Cervezas</Link>
+                                        <Link to={`/category/Cervezas`} className='linkStyleNav'>Cervezas</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link to={`/category/Vinos`} className='linkStyle'>Vinos</Link>
+                                        <Link to={`/category/Vinos`} className='linkStyleNav'>Vinos</Link>
                                     </li>
                                 </ul>                        
                             </div>

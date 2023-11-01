@@ -7,7 +7,7 @@ const ItemDetailContainer = ()=>{
     const[product,setProduct] = useState(null)
     const[loading,setLoading] = useState(true)
 
-    const {id} = useParams()
+    const {itemId} = useParams()
 
 
 
@@ -15,7 +15,7 @@ const ItemDetailContainer = ()=>{
         
         setLoading(true)
 
-        getProductsById(id)
+        getProductsById(itemId)
             .then(response => {
                 setProduct(response)
             })
@@ -25,7 +25,7 @@ const ItemDetailContainer = ()=>{
             .finally(() =>{
                 setLoading(false)
             })
-    },[id])
+    },[itemId])
 
     if (loading){
         return <h1>Cargando Producto</h1>

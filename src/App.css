@@ -116,7 +116,7 @@ h1{
   justify-content: center;
 }
 
-.linkStyle {
+.linkStyleNav {
   color: black; /* Puedes cambiar este valor por el color que prefieras */
   padding: 10px;
 }
@@ -125,5 +125,20 @@ h1{
   color: white; /* Puedes cambiar este valor por el color que prefieras */
   padding: 15px;
   background-color: black;
-  border-radius: 22%;
+  border-radius: 15px;
+}
+
+.linkStyleCard{
+  color: white;
+  padding: 10px;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.linkStyleCard:hover {
+  color: palegreen;
+}
+
+.linkStyleNav:hover {
+  color: white;
 }

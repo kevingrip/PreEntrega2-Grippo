@@ -12,7 +12,7 @@ const Item = ({ id, name, imagen, price, description }) => {
                     <h5 className="card-title">{name}</h5>
                     <h2>${price}</h2>
                     <p className="card-text">{description}</p>
-                    <Link to={`/item/${id}`}>Ver detalle</Link>
+                    <Link to={`/item/${id}`} className='linkStyleCard'>Ver detalle</Link>
                 </div>
         </div>
 
