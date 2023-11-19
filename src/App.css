@@ -52,7 +52,7 @@ h3{
   background-color: rgba(208, 169, 169, 0.574);
 }
 
-#detailProduct{
+#itemDetail{
   display: flex;
   flex-direction: row;
 }

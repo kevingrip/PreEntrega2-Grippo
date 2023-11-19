@@ -23,7 +23,7 @@ const products = [
         price: 1680.00,
         category: 'Aguas',
         imagen: 'https://drinkshop.com.ar/img/productos/125832.jpg',
-        stock: 50,
+        stock: 0,
         description: 'Pack x 6 unidades'
     },
     {

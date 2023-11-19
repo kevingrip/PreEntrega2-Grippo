@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 const useCount = () => {
-    const [count, setCount] = useState (0)
+    const [count, setCount] = useState (1)
 
     const decrementar = () => {
         setCount(old => (old > 0 ? old - 1 : 0))
