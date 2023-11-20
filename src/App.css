@@ -142,3 +142,46 @@ h1{
 .linkStyleNav:hover {
   color: white;
 }
+
+body {
+  background-color: white;
+}
+
+.cartLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2%;
+  padding: 15px;
+  border: 2px solid rgba(128, 128, 128, 0.519);
+  border-radius: 10px;
+}
+
+.cartBox {
+  padding: 1%;
+  width: 20%;
+  border: none;
+  margin: 0 auto;
+}
+
+.line{
+  display: flex;
+  justify-content: end;
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+}
+
+form label,
+form input,
+form select,
+form button {
+  margin-bottom: 10px;
+}
+
