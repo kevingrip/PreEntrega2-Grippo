@@ -44,3 +44,8 @@ Para utilizar Firebase en esta aplicación, debes seguir los siguientes pasos:
 - Deshabilitar la opcion de google analytics.
 - En la sección "Firestore" de Firebase, crea una nueva base de datos
 - Copiar las credenciales de Firebase y configura las variables de entorno en el archivo .env de tu proyecto.
+
+
+https://distribuidora-khg.vercel.app/
+
+(.docs/funcionamiento.gif)
