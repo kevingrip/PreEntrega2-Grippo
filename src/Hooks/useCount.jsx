@@ -4,7 +4,7 @@ const useCount = () => {
     const [count, setCount] = useState (1)
 
     const decrementar = () => {
-        setCount(old => (old > 0 ? old - 1 : 0))
+        setCount(old => (old > 1 ? old - 1 : 1))
     }
 
     const incrementar = () => {

@@ -110,7 +110,7 @@ h1{
 }
 
 #subTotal{
-  height: 100px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -144,7 +144,7 @@ h1{
 }
 
 body {
-  background-color: white;
+  min-height: 100vh;
 }
 
 .cartLine {
@@ -185,3 +185,9 @@ form button {
   margin-bottom: 10px;
 }
 
+.checkOk{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30vh;
+}

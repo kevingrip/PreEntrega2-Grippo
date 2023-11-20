@@ -1,4 +1,3 @@
-
 import ItemCount from '../ItemCount/ItemCount'
 import { useCart } from '../../context/CartContext'
 import { Link } from 'react-router-dom'
@@ -37,6 +36,7 @@ const ItemDetail = ({ id, imagen, name, category, price,description,stock }) => 
                 </section>
             </div>
         </article>
+        
       )
     }
     

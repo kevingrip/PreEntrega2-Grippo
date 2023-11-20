@@ -8,7 +8,6 @@ import ContactForm from "./form"
 const Checkout = () => {
     const [orderId, setOrderId] = useState('')
     const [loading, setLoading] = useState(false)
-    const [outStock, setOutStock] = useState(false)
     const { cart, total, clearCart } = useCart()
 
     const createOrder = async (userData) => {
@@ -57,9 +56,6 @@ const Checkout = () => {
                     clearCart()
                     setLoading(false)
                     setOrderId(id)                    
-                } else {
-                    setLoading(false)
-                    setOutStock(true)                    
                 }
             })
         } catch (error) {
@@ -72,11 +68,13 @@ const Checkout = () => {
     }
 
     if(orderId) {
-        return <h1>El id de su orden es: {orderId}</h1>
-    }
-
-    if (outStock) {
-        return <h1>No hay stock de </h1>
+        return (
+            <div className="checkOk">
+                <h1>Felicitaciones!</h1>
+                <h2>Su compra se procesó correctamente</h2>
+                <h3>El Id de su orden es: {orderId}</h3>
+            </div>
+        )
     }
 
     if (cart.length==0){
