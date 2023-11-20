@@ -48,4 +48,4 @@ Para utilizar Firebase en esta aplicación, debes seguir los siguientes pasos:
 
 https://distribuidora-khg.vercel.app/
 
-(.docs/funcionamiento.gif)
+![Funcionamiento](.docs/funcionamiento.gif)
