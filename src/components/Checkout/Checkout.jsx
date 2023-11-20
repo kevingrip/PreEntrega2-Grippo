@@ -3,7 +3,7 @@ import { useCart } from "../../context/CartContext"
 import { getDocs, collection, query, where, documentId, writeBatch, addDoc } from 'firebase/firestore'
 import { db } from "../../services/firebase/firebaseConfig"
 
-import ContactForm from "./form"
+import ContactForm from "./Form"
 
 const Checkout = () => {
     const [orderId, setOrderId] = useState('')
