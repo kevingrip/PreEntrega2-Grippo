@@ -7,12 +7,14 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAi-QdKOs0XYk1jGa4-7wY6hoBUTlihFAU",
-  authDomain: "practicadistribuidora.firebaseapp.com",
-  projectId: "practicadistribuidora",
-  storageBucket: "practicadistribuidora.appspot.com",
-  messagingSenderId: "517630109202",
-  appId: "1:517630109202:web:18c2164b2f253206ba9acb"
+
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId
+
 };
 
 // Initialize Firebase
