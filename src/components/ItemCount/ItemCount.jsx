@@ -1,4 +1,4 @@
-import useCount from "../../Hooks/UseCount"
+import useCount from "../../Hooks/useCount"
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
